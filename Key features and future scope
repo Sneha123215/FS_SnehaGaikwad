@@ -1,23 +1,5 @@
- Features:
-Student Registration & Verification
-Sign up using college email/ID → ensures only real students join.
-Profile includes name, branch/year, preferred commute times.
-Route Input & Preferences
-Start point & destination via Google Maps/Mapbox API.
-Option to set preferred timings, seat availability, and cost sharing.
-Smart Ride Matching
-Algorithm matches students based on:
-Proximity (within X km radius).
-Similar departure time.
-Route overlap.
-Real-Time Notifications
-Matched students get instant notifications (via Socket.IO/Firebase).
-Confirmation system before ride starts.
-Live GPS Tracking
-Students can see route + live location of carpool.
-Parents/college can also access ride status (safety feature).
-Cost Sharing Calculator
-Automatically divides estimated fuel cost among all riders.
-Rating & Review System
-After each ride, students can give feedback.
-Builds trust and reputation.
+ Challenges Faced
+
+Ensuring accurate route and time inputs, safeguarding user privacy through encryption and secure authentication, and building trust with verified college IDs and live tracking. 
+The geospatial matching engine must scale smoothly for large user bases, while real-time tracking depends on stable internet connectivity.
+Finally, encouraging students to share rides and handling fair cost-splitting require clear incentives and automated calculations.
